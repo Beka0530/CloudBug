@@ -1,0 +1,343 @@
+.wrapper {
+    height: 100vh;
+    position: relative;
+    background: url("./Rectangle\ 3.svg") no-repeat, center;
+    background-size: cover;
+}
+
+.header {
+    position: relative;
+}
+
+.header_img img {
+    z-index: 100;
+    width: 150px;
+    height: 30px;
+    position: absolute;
+    margin-top: 30px;
+}
+
+.header h2 {
+    z-index: 100;
+    position: absolute;
+    margin-top: 40px;
+    left: 100px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+}
+
+.header .ssylki ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 40%;
+}
+
+.header ul {
+    z-index: 100;
+    position: absolute;
+}
+
+.header li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    text-transform: uppercase;
+    top: 0;
+    left: 0;
+    transform: translate(400px, 40px);
+    color: white;
+}
+
+.header .flag img {
+    top: 0;
+    left: 0;
+    transform: translate(950px);
+}
+
+.header .strelka img {
+    height: 10px;
+    top: 0;
+    left: 0;
+    transform: translate(1010px, 13px);
+}
+
+.header p {
+    z-index: 100;
+    position: absolute;
+    color: white;
+    top: 0;
+    left: 0;
+    transform: translate(1050px, 40px);
+}
+
+.header button {
+    z-index: 100;
+    position: absolute;
+    width: 90px;
+    height: 45px;
+    text-transform: uppercase;
+    color: white;
+    background: none;
+    border: 2px solid white;
+    border-radius: 6px;
+    top: 0;
+    left: 0;
+    transform: translate(1150px, 25px);
+}
+
+.header button:hover {
+    background: white;
+    color: black;
+    border: 2px solid black;
+}
+
+.main_bcg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 50;
+    height: 100vh;
+    position: relative;
+    background: url("Rectangle 4.png") no-repeat center;
+    background-size: cover;
+}
+
+.text {
+    font-family: Lato, sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
+.text h1 {
+    font-weight: 700;
+    line-height: 85px;
+    letter-spacing: 0.05em;
+    font-size: 72px;
+    text-transform: uppercase;
+}
+
+.text p {
+    margin-top: 40px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.main_bcg a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 160px;
+    height: 50px;
+    position: absolute;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #ed4c5c;
+    background-color: white;
+    border: none;
+    border-radius: 6px;
+    margin-left: 38%;
+    margin-top: 40px;
+}
+
+
+/*//next_page*/
+
+.next_page {
+    background: aliceblue;
+}
+
+.container {
+    position: relative;
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.flex_container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text_next_page h2 {
+    margin-top: 140px;
+    font-family: Lato, sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 45px;
+}
+
+.text_next_page p {
+    margin-top: 25px;
+    font-family: Lato, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.text_next_page a {
+    text-decoration: none;
+    color: #ED4C5C;
+    line-height: 50px;
+}
+
+.img1 img {
+    margin-top: 95px;
+    border-radius: 15px;
+}
+
+.img2 img {
+    position: absolute;
+    z-index: 1;
+    margin-top: 220px;
+    margin-left: 100px;
+}
+
+.features {
+    position: relative;
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.features_content h2 {
+    text-align: center;
+    font-family: Lato, sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    margin-top: 65px;
+    line-height: 45px;
+}
+
+.features_content .bg_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 65px;
+}
+
+.bg1 {
+    padding-right: 30px;
+}
+
+.bg2 {
+    margin-right: 30px;
+}
+
+.bg1 span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg1 span .text_content {
+    width: 295px;
+    height: 210px;
+    background: white;
+    top: 0;
+    left: 10%;
+    transform: translate(-35px, -100px);
+    z-index: 10;
+    box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.text_content h4 {
+    text-align: center;
+    padding: 30px 30px;
+    font-family: Lato, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.text_content p {
+    text-align: center;
+    font-size: 12px;
+    font-family: Lato, sans-serif;
+    padding: 30px 20px;
+}
+
+.text_content a {
+    position: absolute;
+    width: 250px;
+    text-align: center;
+    color: #ED4C5C;
+    margin: 0 20px auto;
+    font-family: Lato, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.bg2 span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg2 span .text_content {
+    width: 295px;
+    height: 210px;
+    background: white;
+    top: 0;
+    left: 10%;
+    transform: translate(-35px, -100px);
+    box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    z-index: 10;
+}
+
+.bg3 span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg3 span .text_content {
+    width: 295px;
+    height: 210px;
+    background: white;
+    top: 0;
+    left: 10%;
+    transform: translate(-35px, -100px);
+    box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    z-index: 10;
+}
+
+.technology h2 {
+    margin-top: 60px;
+}
+
+.technology .technology_img {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.techno_btn {
+    text-align: center;
+    margin-top: 65px;
+    margin-bottom: 65px;
+}
+
+.techno_btn button {
+    width: 150px;
+    height: 50px;
+    text-transform: uppercase;
+    background: #ed4c5c;
+    border: none;
+    border-radius: 6px;
+    color: white;
+}
